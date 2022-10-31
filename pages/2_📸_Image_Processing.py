@@ -9,8 +9,6 @@ st.write(
 )
 
 file = st.file_uploader("Upload a file")
-if file is None:
-    file = st.camera_input("Or take a picture")
 
 if file is not None:
     # Display original image
